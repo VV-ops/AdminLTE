@@ -2,6 +2,16 @@
  * Component: Table
  * ----------------
  */
+table {
+  table-layout:fixed;/*列宽由表格宽度和列宽度设定。*/
+}
+table td {
+  text-align: center; /*设置水平居中*/
+  vertical-align: middle; /*设置垂直居中*/
+  white-space: nowrap; /*文本不会换行，在同一行显示*/
+  overflow: hidden; /*超出隐藏*/
+  text-overflow: ellipsis; /*省略号显示*/
+}
 
 .table {
   //Cells
